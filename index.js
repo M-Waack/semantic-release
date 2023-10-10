@@ -14,4 +14,8 @@ app.get('/v3/', function (_req, res) {
   res.send('Hello V3 World')
 })
 
+app.get('/v4/', function (_req, res) {
+  res.send('Hello V4 World')
+})
+
 app.listen(3000)
